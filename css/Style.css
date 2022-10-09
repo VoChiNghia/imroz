@@ -188,6 +188,7 @@ background-color: #FD4766;
 .nav-item:hover .nav-link{
     color: #FD4766 !important;
     transition: all 0.5s;
+    cursor: pointer;
 }
 
 .nav-item:hover .submenu{
@@ -727,3 +728,92 @@ padding: 8px 0;
     -webkit-transition: all 200ms linear;
     transition: all 200ms linear;
   }
+
+
+/* CONTACT CSS */
+
+.banner{
+    height:500px;
+}
+.banner-wrapper{
+    background-image: url(../img/bg-image-22.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size:cover;
+height:520px;
+position:absolute;
+width: 100%;
+top:0;
+}
+.banner-wrapper .container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.banner-wrapper .container h1{
+    font-size: 72px;
+    font-weight: bold;
+    background: linear-gradient(120deg, #1C99FE 20.69%, #7644FF 50.19%, #fd4766 79.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.banner-wrapper .container p{
+    color: #fff;
+    font-size: 20px;
+}
+.contact-address{
+    background: #f9f9f9;
+    padding:100px 0;
+}
+.address-wrapper{
+    text-align: center;
+}
+.address-card{
+
+}
+.address-card-item{
+    margin-top: 30px;
+    padding: 40px 20px;
+    border-radius: 10px;
+    padding-top: 40px;
+    background: #fff;
+    padding-bottom: 50px;
+    box-shadow: 0 0 20px rgb(0 0 0 / 5%);
+    transition: 0.3s;
+    
+}
+.address-card-item:hover{
+    transform: translateY(-5px);
+}
+.address-title{
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 18px;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-bottom: 12px;
+    background: linear-gradient(120deg, #1C99FE 20.69%, #7644FF 50.19%, #fd4766 79.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.address-name{
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 62px;
+    margin-bottom: 20px;
+   
+}
+.address-card-item i{
+    color: #fd4766;
+    font-size: 40px;
+}
+.address-card-item h3{
+    font-size: 18px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+.address-card-item p{
+    color: rgba(29, 29, 36, 0.75);
+}
